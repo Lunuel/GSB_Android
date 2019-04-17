@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_rapports"
+        android:icon="@drawable/rapports"
+        android:title="Rapports" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:checked="false"
+        android:icon="@drawable/user"
+        android:title="Profil" />
+    <item
+        android:id="@+id/navigation_addrapport"
+        android:checked="false"
+        android:icon="@drawable/addrapport"
+        android:title="Ajouter Rapport" />
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+
+</menu>
